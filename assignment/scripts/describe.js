@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// make a variable called name, give it the value of dane
+// if name is equal to Mary
+// console.log 'Hi, Mary!'
+//if name is not mary, console.log 'How do you do?'
+//the console log will show 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// make a variable called secret 
+// make a variable called code and give it the value 123
+// if code is exactly 123, then secret is  'super', then code is equal to the current code times 2, giving code a new value 
+//if code is greater than 250, then secret is 'duper'
+//console.log the secret
+//The console log will show 'super' and the new code will be 246.
 
 //CODE
 /*
@@ -70,10 +73,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// make a variable called isStudent and give it the value true
+// make  a variable called age and give it the value 34
+// make a variable called zip and give it the value 55407
+//if isStudent is true and the zip code is greater than 80000
+//console log 'you're a student on the west coast!'
+//else, if isStudent is false or age is less than 30
+// console log 'What are your hobbbies?'
+//if isStudent is true
+//console log 'Welcome  to prime!'
+// if everything above is false, then console log 'How about the weather'
+//the console log will show  'Welcome to prime!'
 
 //CODE
 /*
@@ -129,10 +139,15 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//colorOne needs to be set to blue instead of red
+//colorTwo needs to be set to red instead of blue
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// you also need to set colorTwo to purple 
 
 if (mix === true) {
   colorOne = 'purple';
@@ -143,9 +158,12 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//the instrustion didn't ask for constant time, it should be a let time 
 /*
 let temp = 40;
 const time = 4;
+
+// the condition should be and(&&) time, not or(||) time
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -156,10 +174,13 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+
+// the instrustion didn't ask for constant minAge, it should be a let minAge
 /*
 let age = 21;
 const minAge = 21;
 
+// the first log should be 'enter', then the second log should be 'no enter'
 if(minAge <= age) {
   console.log('no entry');
 } else {
